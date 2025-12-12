@@ -1,0 +1,8 @@
+{
+  "name": "Emotional AI: Neurodiverse Social Interpreter",
+  "description": "An agentic companion for neurodivergent users that decodes social subtext in real-time conversations using Gemini 3 Pro.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
