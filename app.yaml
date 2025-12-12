@@ -1,0 +1,7 @@
+runtime: python311
+entrypoint: gunicorn -b :$PORT main:app
+
+handlers:
+# Map the root url to the application
+- url: /.*
+  script: auto
